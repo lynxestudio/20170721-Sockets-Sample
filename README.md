@@ -44,7 +44,7 @@ $mono SimpleTCPServer.exe
 <div>And you’ll see the following output on your screen:</div><br>
 <div><b>Fig 1: Result of running the SimpleTCPServer program.</b></div><br>
 <div>
-<IMG src="picture_library/201724/SimpleTCPServer.png">
+<IMG src="images/SimpleTCPServer.png">
 </div><br>
 <div><b>Minimal TCP/IP Client</b></div>
 <p align="justify">
@@ -61,5 +61,5 @@ $mono SimpleTCPClient.exe
 <div>And you’ll see the following output on your screen:</div><br>
 <div><b>Fig 2: Result of running the SimpleTCPClient program.</b></div><br>
 <div>
-<IMG src="picture_library/201724/SimpleTCPClient.png">
+<IMG src="images/SimpleTCPClient.png">
 </div><br>
