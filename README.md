@@ -33,13 +33,13 @@ Ports are divided into the following ranges:
 <div><b>Minimal TCP/IP Server</b></div>
 <p align="justify">
 The System.Net.Sockets.TcpListener class is used to create server applications. TcpListener provides a simple wrapper around the socket classes, here is a simple TCP Server that accepts a single client connection.</p>
-<div>To compile this program using mono, type the following command at your command prompt:</div>
+<div>To compile this program using dotnet, type the following command at your command prompt:</div>
 <pre>
-$ mcs /t:exe -out:SimpleTCPServer.exe SimpleTCPServer.cs
+$ dotnet build
 </pre>
 <div>And to run it, type this command line:</div>
 <pre>
-$mono SimpleTCPServer.exe
+$ dotnet run
 </pre>
 <div>And you’ll see the following output on your screen:</div><br>
 <div><b>Fig 1: Result of running the SimpleTCPServer program.</b></div><br>
@@ -50,13 +50,13 @@ $mono SimpleTCPServer.exe
 <p align="justify">
 The client is a simple console application, this application uses the <i>TcpClient</i> class to connect to the running server, and receives the returned message.
 </p>
-<div>To compile this program using mono, type the following command at your command prompt:</div>
+<div>To compile this program using dotnet, type the following command at your command prompt:</div>
 <pre>
-mcs /t:exe -out:SimpleTCPClient.exe SimpleTCPClient.cs
+$ dotnet build
 </pre>
 <div>And to run it, type this command line:</div>
 <pre>
-$mono SimpleTCPClient.exe
+$ dotnet run
 </pre>
 <div>And you’ll see the following output on your screen:</div><br>
 <div><b>Fig 2: Result of running the SimpleTCPClient program.</b></div><br>
