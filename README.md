@@ -1,5 +1,10 @@
-# C# Networking Basics: Sockets
-        
+# Introduction to Sockets.
+
+<b>The beginning of everything</b>
+
+<div>
+<img src="images/Socket.png"/>
+</div>
 <p align="Justify">
 Socket is the name given to an abstraction through which an application may send and receive data. The term “Socket” refers to the Berkeley Sockets Interface, which was developed in 1978 for network programming with UNIX and was popularized by C programmers.
 </p>
@@ -44,7 +49,7 @@ $ dotnet run
 <div>And you’ll see the following output on your screen:</div><br>
 <div><b>Fig 1: Result of running the SimpleTCPServer program.</b></div><br>
 <div>
-<IMG src="images/SimpleTCPServer.png">
+<IMG src="images/fig1.png">
 </div><br>
 <div><b>Minimal TCP/IP Client</b></div>
 <p align="justify">
@@ -61,5 +66,5 @@ $ dotnet run
 <div>And you’ll see the following output on your screen:</div><br>
 <div><b>Fig 2: Result of running the SimpleTCPClient program.</b></div><br>
 <div>
-<IMG src="images/SimpleTCPClient.png">
+<IMG src="images/fig2.png">
 </div><br>
