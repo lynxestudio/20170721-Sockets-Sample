@@ -8,19 +8,19 @@
 Socket is the name given to an abstraction through which an application may send and receive data. The term “Socket” refers to the Berkeley Sockets Interface, which was developed in 1978 for network programming with UNIX and was popularized by C programmers.
 </p>
 <p align="justify">
-Because of the popularity of that abstraction, this term has been reused in many programming model including .NET technology.
+Because of the popularity of that abstraction, this term has been reused in many programming models including .NET technology.
 The main types of sockets in TCP/IP today are: stream sockets and datagram sockets, both use TCP as the end-to-end protocol with IP underneath, the .NET framework provides a clear distinction between using TCP and UDP, defining a separate set of classes for both protocols.
 </p>
 <h3>Stream Sockets</H3>
 <p align="justify">
-Socket based communications in C# employ stream sockets, when processes communicate over a network .NET Framework technology uses the streams model to establish a connection between two o more processes. With stream sockets, a process (running program) establishes a connection to another process. 
+Socket-based communications in C# employ stream sockets, when processes communicate over a network .NET Framework technology uses the streams model to establish a connection between two or more processes. With stream sockets, a process (running program) establishes a connection to another process. 
 </p>
 <p align="justify">
 A socket can hold two streams: one input stream and one output stream when the sender sends data to another process through the network by writing to the output stream associated with the socket, the receiver reads data written by the sender by reading from the input stream associated with the socket. While the connection is in place, data flows between the processes in continuous stream.
 </p>
 <h3>Addressing the connection</H3>
 <p align="justify">
-When you make a network connection, you need to know the address or the name of the remote machine, IPv4 uses 32 bit binary addresses to identify communicating hosts a client must specify the IP address of the host running the server program when it initiates the communication. 
+When you make a network connection, you need to know the address or the name of the remote machine, IPv4 uses 32-bit binary addresses to identify communicating hosts a client must specify the IP address of the host running the server program when it initiates the communication. 
 In addition, a network connection requires a port number, after you connect to the proper host, you must identify a particular purpose for the connection. So, you can use a particular port number to communicate with the specific program.
 </p>
 <h3>Port Numbers</H3>
@@ -41,7 +41,7 @@ The System.Net.Sockets.TcpListener class is used to create server applications. 
 <pre>
 $ dotnet build
 </pre>
-<div>And to run it, type this command line:</div>
+<div>To run it, type this command line:</div>
 <pre>
 $ dotnet run
 </pre>
@@ -62,7 +62,7 @@ The client is a simple console application, this application uses the <i>TcpClie
 <pre>
 $ dotnet build
 </pre>
-<div>And to run it, type this command line:</div>
+<div>To run it, type this command line:</div>
 <pre>
 $ dotnet run
 </pre>
@@ -71,7 +71,7 @@ $ dotnet run
 <div>
 <IMG src="images/fig2.png">
 </div><br>
-<div><b>Fig 4: Recieving the message from server.</b></div><br>
+<div><b>Fig 4: Receiving the message from the server.</b></div><br>
 <div>
 <IMG src="images/fig4.png">
 </div><br>
