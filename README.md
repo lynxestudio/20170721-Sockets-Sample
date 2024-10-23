@@ -50,7 +50,7 @@ $ dotnet run
 <div>
 <IMG src="images/fig1.png">
 </div><br>
-<div><b>Fig 2: .</b></div><br>
+<div><b>Fig 2: Typing the message to the client.</b></div><br>
 <div>
 <IMG src="images/fig3.png">
 </div><br>
@@ -71,7 +71,7 @@ $ dotnet run
 <div>
 <IMG src="images/fig2.png">
 </div><br>
-<div><b>Fig 4: .</b></div><br>
+<div><b>Fig 4: Recieving the message from server.</b></div><br>
 <div>
 <IMG src="images/fig4.png">
 </div><br>
